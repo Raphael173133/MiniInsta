@@ -1,0 +1,102 @@
+body {
+            background-color: rgb(243, 240, 247); /* violet */
+            font-family: 'Roboto Condensed', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 500px;
+            margin: 30px auto;
+            background: rgb(173, 51, 173); /* violet */
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 65px;
+            letter-spacing: 3px;
+        }
+
+        form {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+           .form-row {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(240, 133, 208); /* rose clair */
+    padding: 10px 20px; /* réduit l’espace vertical et horizontal */
+    max-width: 320px;     /* limite la largeur de l'encadré */
+    margin: 0 auto;       /* centre horizontalement */
+}
+   
+
+        .photos {
+            max-height: 400px;      /* limite la hauteur à 400px */
+            overflow-y: auto;       /* scroll vertical si dépassement */
+             padding: 10px;
+             background-color: rgb(173, 51, 173);
+             border-radius: 8px;  
+        }
+        .photos {
+            margin-top: 20px;
+}
+
+        .photo-item {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .photo-item img {
+            max-width: 100%;
+            width: 360px;
+            border-radius: 8px;
+        }
+        .photo-item p {
+            color: white;
+            font-size: 18px;
+}
+
+        input[type="file"],
+        input[type="text"] {
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        input[type="file"] {
+             display: none;
+}
+
+        button {
+            padding: 8px 16px;
+            background:rgb(240, 235, 243);
+            color: black;
+            border: none;
+            cursor: pointer;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+    
+        p.upload-label {
+            color: white;
+            font-size: 40px;
+        }
+
+.big-button {
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid #999;
+    cursor: pointer;
+    font-family: 'Arial';
+}
